@@ -31,6 +31,11 @@
 		2D9E7D241A0E6C5300C34DA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D74F8A21A0C572D00F24096 /* SystemConfiguration.framework */; };
 		58BDBBA31A17B97F00B70B46 /* OurStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */; };
 		58BDBBA51A17D61700B70B46 /* GetInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */; };
+		786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */; };
+		786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */; };
+		786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21F1A7D8482001B5371 /* ImageArrays.swift */; };
+		786EB2221A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */; };
+		786EB2241A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		2D9E7D161A0E6BB900C34DA9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurStoryViewController.swift; sourceTree = "<group>"; };
 		58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolvedViewController.swift; sourceTree = "<group>"; };
+		786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPageViewControler.swift; sourceTree = "<group>"; };
+		786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremadeOrderViewController.swift; sourceTree = "<group>"; };
+		786EB21F1A7D8482001B5371 /* ImageArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageArrays.swift; sourceTree = "<group>"; };
+		786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDatasource.swift; sourceTree = "<group>"; };
+		786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDeleage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +147,13 @@
 			isa = PBXGroup;
 			children = (
 				2D74F86D1A0C423A00F24096 /* AppDelegate.swift */,
+				786EB21F1A7D8482001B5371 /* ImageArrays.swift */,
+				786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */,
+				786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */,
+				786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */,
 				2D74F86F1A0C423A00F24096 /* RootViewController.swift */,
 				2D74F8711A0C423A00F24096 /* DataViewController.swift */,
+				786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */,
 				2D74F8731A0C423A00F24096 /* ModelController.swift */,
 				2D74F8751A0C423A00F24096 /* Main.storyboard */,
 				58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */,
@@ -278,12 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */,
 				2D74F8701A0C423A00F24096 /* RootViewController.swift in Sources */,
+				786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */,
 				2D74F8741A0C423A00F24096 /* ModelController.swift in Sources */,
+				786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */,
+				786EB2221A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift in Sources */,
 				58BDBBA51A17D61700B70B46 /* GetInvolvedViewController.swift in Sources */,
 				2D74F8721A0C423A00F24096 /* DataViewController.swift in Sources */,
 				58BDBBA31A17B97F00B70B46 /* OurStoryViewController.swift in Sources */,
 				2D74F86E1A0C423A00F24096 /* AppDelegate.swift in Sources */,
+				786EB2241A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +444,10 @@
 				INFOPLIST_FILE = FeelGood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FeelGood-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,7 +473,9 @@
 				INFOPLIST_FILE = FeelGood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FeelGood-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

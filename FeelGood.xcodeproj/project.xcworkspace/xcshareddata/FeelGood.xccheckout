@@ -10,14 +10,14 @@
 	<string>FeelGood</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>342261250F00E68DAEA360F8B6A99C73C0E806D3</key>
+		<key>BF45B1A3F288447D1AFF866C2DFC444358383447</key>
 		<string>https://github.com/hgibson1/FeelGoodIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FeelGood.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>342261250F00E68DAEA360F8B6A99C73C0E806D3</key>
+		<key>BF45B1A3F288447D1AFF866C2DFC444358383447</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>342261250F00E68DAEA360F8B6A99C73C0E806D3</string>
+	<string>BF45B1A3F288447D1AFF866C2DFC444358383447</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>342261250F00E68DAEA360F8B6A99C73C0E806D3</string>
+			<string>BF45B1A3F288447D1AFF866C2DFC444358383447</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FeelGood</string>
 		</dict>
