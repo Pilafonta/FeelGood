@@ -442,6 +442,7 @@
 					"$(PROJECT_DIR)/FeelGood",
 				);
 				INFOPLIST_FILE = FeelGood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -471,6 +472,7 @@
 					"$(PROJECT_DIR)/FeelGood",
 				);
 				INFOPLIST_FILE = FeelGood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -493,6 +495,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FeelGoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelGood.app/FeelGood";
@@ -509,6 +512,7 @@
 					"$(PROJECT_DIR)/FeelGood",
 				);
 				INFOPLIST_FILE = FeelGoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelGood.app/FeelGood";
