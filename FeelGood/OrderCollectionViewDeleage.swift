@@ -32,7 +32,8 @@ class OrderDelagate: NSObject, UICollectionViewDelegate {
                 if (dataType == "PreMade"){
                     
                 } else {
-                    OrderPage.setIngredient(Cell.foodLabelView.text)
+                    let orderPage = OrderPage()
+                    orderPage.setIngredient(Cell.foodLabelView.text)
                 }
             }
     }

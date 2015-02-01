@@ -342,9 +342,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate" translatesAutoresizingMaskIntoConstraints="NO" id="xYM-eq-Aqp">
-                                <rect key="frame" x="104" y="355" width="100" height="50"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-yZ-HEi">
                                 <rect key="frame" x="16" y="493" width="121" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -392,7 +389,6 @@
                     <navigationItem key="navigationItem" id="tfc-oj-3do"/>
                     <connections>
                         <outlet property="CustomSandwichCollectionView" destination="5IH-j5-sHQ" id="Gok-gT-2RL"/>
-                        <outlet property="OrderImageView" destination="xYM-eq-Aqp" id="koj-Fy-uc6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Myt-uF-d2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -446,7 +442,6 @@
         <image name="feel_good_top" width="719" height="675"/>
         <image name="middle_border" width="3264" height="1840"/>
         <image name="pan" width="138" height="128"/>
-        <image name="plate" width="806" height="362"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
