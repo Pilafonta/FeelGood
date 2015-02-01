@@ -1,5 +1,5 @@
 //
-//  PremadeOrderViewController.swift
+//  OrderViewController.swift
 //  FeelGood
 //
 //  Created by Global App Initiative 3 on 1/31/15.

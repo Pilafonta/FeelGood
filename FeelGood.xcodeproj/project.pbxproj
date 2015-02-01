@@ -30,7 +30,7 @@
 		58BDBBA31A17B97F00B70B46 /* OurStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */; };
 		58BDBBA51A17D61700B70B46 /* GetInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */; };
 		786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */; };
-		786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */; };
+		786EB21E1A7D8288001B5371 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21D1A7D8288001B5371 /* OrderViewController.swift */; };
 		786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21F1A7D8482001B5371 /* ImageArrays.swift */; };
 		786EB2221A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */; };
 		786EB2241A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */; };
@@ -73,7 +73,7 @@
 		58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurStoryViewController.swift; sourceTree = "<group>"; };
 		58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolvedViewController.swift; sourceTree = "<group>"; };
 		786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPageViewControler.swift; sourceTree = "<group>"; };
-		786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremadeOrderViewController.swift; sourceTree = "<group>"; };
+		786EB21D1A7D8288001B5371 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		786EB21F1A7D8482001B5371 /* ImageArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageArrays.swift; sourceTree = "<group>"; };
 		786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDatasource.swift; sourceTree = "<group>"; };
 		786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDeleage.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 				786EB21F1A7D8482001B5371 /* ImageArrays.swift */,
 				786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */,
 				786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */,
-				786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */,
+				786EB21D1A7D8288001B5371 /* OrderViewController.swift */,
 				2D74F86F1A0C423A00F24096 /* RootViewController.swift */,
 				786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */,
 				2D74F8751A0C423A00F24096 /* Main.storyboard */,
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */,
+				786EB21E1A7D8288001B5371 /* OrderViewController.swift in Sources */,
 				2D74F8701A0C423A00F24096 /* RootViewController.swift in Sources */,
 				786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */,
 				786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */,
@@ -371,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -434,7 +434,7 @@
 					"$(PROJECT_DIR)/FeelGood",
 				);
 				INFOPLIST_FILE = FeelGood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -464,7 +464,7 @@
 					"$(PROJECT_DIR)/FeelGood",
 				);
 				INFOPLIST_FILE = FeelGood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
