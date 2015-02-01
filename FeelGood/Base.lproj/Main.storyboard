@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fGG-8z-1D8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
     <dependencies>
-        <deployment version="1792" defaultVersion="1536" identifier="iOS"/>
+        <deployment version="1792" defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="W9h-xs-cVE">
+            <objects>
+                <navigationController id="AVP-Ey-dA2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Pu-21-Xcb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fGG-8z-1D8" kind="relationship" relationship="rootViewController" id="VkX-RM-guE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KcA-gp-5Di" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-139" y="205"/>
+        </scene>
         <!--Root View Controller-->
         <scene sceneID="DRk-GV-Qcr">
             <objects>
@@ -101,6 +117,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.5058823823928833" green="0.91372555494308472" blue="0.56862747669219971" alpha="1" colorSpace="deviceRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dia-mN-1mk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZr-7N-6ix" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
