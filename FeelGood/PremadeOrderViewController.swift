@@ -1,5 +1,5 @@
 //
-//  OrderViewController.swift
+//  PremadeOrderViewController.swift
 //  FeelGood
 //
 //  Created by Global App Initiative 3 on 1/31/15.
@@ -10,27 +10,27 @@ import Foundation
 import UIKit
 
 class PremadeOrderPage : UIViewController {
+    var orderDelagate = OrderDelagate()
+    var orderDatasource = OrderDatasource()
+    
+    @IBOutlet weak var orderImage: UIImageView!
+    
+    @IBOutlet weak var premadeOrderCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //sets imageview image as plate
         self.orderImage.image = UIImage(named: "plate")
         //sets collectionview datasource and delegate
-        premadeOrderCollectionView.delegate = OrderDelagate()
-        premadeOrderCollectionView.dataSource = OrderDatasource()
+        orderDatasource.setOrderType("premade")
+        premadeOrderCollectionView.delegate = self.orderDelagate
+        premadeOrderCollectionView.dataSource = self.orderDatasource
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBOutlet weak var orderImage: UIImageView!
-    
-    @IBOutlet weak var customerName: UITextField!
-    
-    @IBOutlet weak var customerID: UITextField!
-    
-    @IBOutlet weak var premadeOrderCollectionView: UICollectionView!
     
     //called when order placed
     @IBAction func orderPlaced(sender: AnyObject) {
@@ -39,4 +39,6 @@ class PremadeOrderPage : UIViewController {
     @IBAction func Back(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    
 }

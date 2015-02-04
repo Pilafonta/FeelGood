@@ -23,6 +23,10 @@ class OrderPage : UIViewController {
         return self.ingredients
     }
     
+    @IBOutlet weak var OrderImageView: UIImageView!
+    
+    @IBOutlet weak var CustomSandwichCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //sets the delegate and datasource of the collectionview
@@ -36,9 +40,6 @@ class OrderPage : UIViewController {
         
     }
     
-    @IBOutlet weak var OrderImageView: UIImageView!
-    
-    @IBOutlet weak var CustomSandwichCollectionView: UICollectionView!
     
     @IBAction func BreadSelected(sender: AnyObject) {
         self.dataSource.setOrderType("bread")

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D34011B1A81A32A00EB9AED /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34011A1A81A32A00EB9AED /* PlaceOrderViewController.swift */; };
 		2D74F86E1A0C423A00F24096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74F86D1A0C423A00F24096 /* AppDelegate.swift */; };
 		2D74F8701A0C423A00F24096 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74F86F1A0C423A00F24096 /* RootViewController.swift */; };
 		2D74F8771A0C423A00F24096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D74F8751A0C423A00F24096 /* Main.storyboard */; };
@@ -30,7 +31,7 @@
 		58BDBBA31A17B97F00B70B46 /* OurStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */; };
 		58BDBBA51A17D61700B70B46 /* GetInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */; };
 		786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */; };
-		786EB21E1A7D8288001B5371 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21D1A7D8288001B5371 /* OrderViewController.swift */; };
+		786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */; };
 		786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB21F1A7D8482001B5371 /* ImageArrays.swift */; };
 		786EB2221A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */; };
 		786EB2241A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D34011A1A81A32A00EB9AED /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
 		2D74F8681A0C423A00F24096 /* FeelGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D74F86C1A0C423A00F24096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D74F86D1A0C423A00F24096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 		58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurStoryViewController.swift; sourceTree = "<group>"; };
 		58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolvedViewController.swift; sourceTree = "<group>"; };
 		786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPageViewControler.swift; sourceTree = "<group>"; };
-		786EB21D1A7D8288001B5371 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremadeOrderViewController.swift; sourceTree = "<group>"; };
 		786EB21F1A7D8482001B5371 /* ImageArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageArrays.swift; sourceTree = "<group>"; };
 		786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDatasource.swift; sourceTree = "<group>"; };
 		786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewDeleage.swift; sourceTree = "<group>"; };
@@ -146,9 +148,10 @@
 				786EB21F1A7D8482001B5371 /* ImageArrays.swift */,
 				786EB2211A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift */,
 				786EB2231A7D9C8F001B5371 /* OrderCollectionViewDeleage.swift */,
-				786EB21D1A7D8288001B5371 /* OrderViewController.swift */,
+				786EB21D1A7D8288001B5371 /* PremadeOrderViewController.swift */,
 				2D74F86F1A0C423A00F24096 /* RootViewController.swift */,
 				786EB21B1A7D7B87001B5371 /* OrderPageViewControler.swift */,
+				2D34011A1A81A32A00EB9AED /* PlaceOrderViewController.swift */,
 				2D74F8751A0C423A00F24096 /* Main.storyboard */,
 				58BDBBA41A17D61700B70B46 /* GetInvolvedViewController.swift */,
 				58BDBBA21A17B97F00B70B46 /* OurStoryViewController.swift */,
@@ -287,11 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786EB21E1A7D8288001B5371 /* OrderViewController.swift in Sources */,
+				786EB21E1A7D8288001B5371 /* PremadeOrderViewController.swift in Sources */,
 				2D74F8701A0C423A00F24096 /* RootViewController.swift in Sources */,
 				786EB2201A7D8482001B5371 /* ImageArrays.swift in Sources */,
 				786EB21C1A7D7B87001B5371 /* OrderPageViewControler.swift in Sources */,
 				786EB2221A7D8DF4001B5371 /* OrderCollectionViewDatasource.swift in Sources */,
+				2D34011B1A81A32A00EB9AED /* PlaceOrderViewController.swift in Sources */,
 				58BDBBA51A17D61700B70B46 /* GetInvolvedViewController.swift in Sources */,
 				58BDBBA31A17B97F00B70B46 /* OurStoryViewController.swift in Sources */,
 				2D74F86E1A0C423A00F24096 /* AppDelegate.swift in Sources */,

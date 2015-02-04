@@ -32,20 +32,20 @@ struct dataType {
 
 //Images to be used with view controller
 let breadArray: [dataType] = [
-    dataType(foodImage: UIImage(named: "white"), foodName: "White Bread"),
-    dataType(foodImage: UIImage(named: "wheat"), foodName: "Wheat Bread")
+    dataType(foodImage: UIImage(named: "white")!, foodName: "White Bread"),
+    dataType(foodImage: UIImage(named: "wheat")!, foodName: "Wheat Bread")
 ]
 
 let vegArray: [dataType] = [
-    dataType(foodImage: UIImage(named: "onion"), foodName: "Onions"),
-    dataType(foodImage: UIImage(named: "mushroom"), foodName: "Mushrooms"),
-    dataType(foodImage: UIImage(named: "tomato"), foodName: "Tomato")
+    dataType(foodImage: UIImage(named: "onion")!, foodName: "Onions"),
+    dataType(foodImage: UIImage(named: "mushroom")!, foodName: "Mushrooms"),
+    dataType(foodImage: UIImage(named: "tomato")!, foodName: "Tomato")
 ]
 
 let cheeseArray: [dataType] = [
-    dataType(foodImage: UIImage(named: "mozerella"), foodName: "Mozerella"),
-    dataType(foodImage: UIImage(named: "cheddarcheese"), foodName: "Cheddar"),
-    dataType(foodImage: UIImage(named: "jack_cheese"), foodName: "Monterey Jack")
+    dataType(foodImage: UIImage(named: "mozerella")!, foodName: "Mozerella"),
+    dataType(foodImage: UIImage(named: "cheddarcheese")!, foodName: "Cheddar"),
+    dataType(foodImage: UIImage(named: "jack_cheese")!, foodName: "Monterey Jack")
 ]
 
 //let sauceArray: [datatype] = []

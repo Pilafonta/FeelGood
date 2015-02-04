@@ -26,17 +26,13 @@ class OrderDelagate: NSObject, UICollectionViewDelegate {
         didSelectItemAtIndexPath indexPath: NSIndexPath){
         //get the image and label of the cell and add them to the users order
             let Cell = collectionView.dequeueReusableCellWithReuseIdentifier("preMadeCell",
-                forIndexPath: indexPath) as OrderCell
-                if (dataType != "none"){
+                forIndexPath: indexPath) as UICollectionViewCell
                 //sets values on premade view controller if premade value is passed
                 if (dataType == "PreMade"){
                     
                 } else {
-                    //sets adds cell text value to order array
-                    let orderPage = OrderPage()
-                    orderPage.setIngredient(Cell.foodLabelView.text)
+                   
                 }
-            }
     }
     
 }
