@@ -30,9 +30,6 @@ class OrderDatasource : NSObject, UICollectionViewDataSource {
             if (self.orderType == "premade"){
                 Cell = collectionView.dequeueReusableCellWithReuseIdentifier("preMadeCell",
                     forIndexPath: indexPath) as UICollectionViewCell
-                //var imageView = UIImageView()
-                //Cell.contentView.addSubview(imageView)
-                //Cell.contentView.imageView =
             } else {
                 Cell = collectionView.dequeueReusableCellWithReuseIdentifier("customCell",
                     forIndexPath: indexPath) as UICollectionViewCell
@@ -58,15 +55,13 @@ class OrderDatasource : NSObject, UICollectionViewDataSource {
     //sets number of items in section
     func collectionView(collectionView: UICollectionView,
         numberOfItemsInSection section: Int) -> Int{
-            if (orderType != "none") {
-                if (orderType == "bread"){
-                    return breadArray.count
-                } else if (orderType == "cheese") {
-                    return cheeseArray.count
-                } 
-                //need to add the rest
+        if (orderType == "bread"){
+            return breadArray.count
+            } else if (orderType == "cheese") {
+            return cheeseArray.count
             }
-            //default return value
+            //need to add the rest
+        //default return value
         return 1
     }
     
