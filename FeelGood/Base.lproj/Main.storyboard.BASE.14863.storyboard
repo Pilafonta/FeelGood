@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5788145a7309475cc3c07b075ab9540befcd8742
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
-=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
->>>>>>> 4027324f536f5a9e0d0a812a9c885f8112aba443
-<<<<<<< HEAD
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
->>>>>>> parent of 4027324... added the text to the OurStoryViewController
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
->>>>>>> parent of 4027324... added the text to the OurStoryViewController
-=======
->>>>>>> 5788145a7309475cc3c07b075ab9540befcd8742
     <dependencies>
         <deployment version="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -163,7 +145,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="middle_border" translatesAutoresizingMaskIntoConstraints="NO" id="oET-xc-P1J">
-                                <rect key="frame" x="40" y="100" width="240" height="128"/>
+                                <rect key="frame" x="40" y="100" width="240" height="138"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
@@ -482,6 +464,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feel_good_top" translatesAutoresizingMaskIntoConstraints="NO" id="ekN-fh-3DN">
+                                <rect key="frame" x="98" y="58" width="125" height="125"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="joX-e4-wXP">
+                                <rect key="frame" x="40" y="203" width="240" height="307"/>
+                                <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
+                                <mutableString key="text">FeelGood-BU is working to end world hunger by 2030 one grilled cheese at a time! We held our first deli in the spring of 2013 and now continue to hold delis once a week in Warren Late Night. In 3 semesters, we’ve generated over $5000 for CHOICE Humanitarian, who engages in empowering partnership not charity in Mexico, Guatemala, Nepal, Bolivia, and Kenya. CHOICE partners with villages to develop an economically sustainable path out of poverty. CHOICE’s strategy is successful because they don’t believe in handouts and instead, they mobilize grassroots leadership, address gender inequality, forge partnerships with local governments and organizations, and embrace environmentally sustainable practices. 
+
+FeelGood is a national non-profit movement across 23 college campuses and growing. On each campus, students engage in a multi-faceted training program, gaining the knowledge and skills to run a successful social enterprise—a grilled cheese deli—to raise money and build public support for a systemic approach to hunger eradication because FeelGood recognizes that hunger is part of a complex web of social, economic and environmental issues that intertwine the developing and developed world. That is why FeelGood is igniting a generation of compassionate entrepreneurs who will continue to be changemakers in the global community into the future while working with successful aid organizations like CHOICE now.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxl-jo-IAS">
                                 <rect key="frame" x="28" y="20" width="35" height="30"/>
                                 <state key="normal" title="Back">
@@ -491,16 +486,6 @@
                                     <action selector="Back:" destination="KMR-36-NFR" eventType="touchUpInside" id="izO-AH-hNG"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-1V-Kqo">
-                                <rect key="frame" x="40" y="265" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feel_good_top" translatesAutoresizingMaskIntoConstraints="NO" id="ekN-fh-3DN">
-                                <rect key="frame" x="110" y="109" width="100" height="100"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -524,6 +509,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="RiV-eZ-pOD"/>
+        <segue reference="WjC-yW-IiB"/>
     </inferredMetricsTieBreakers>
 </document>
