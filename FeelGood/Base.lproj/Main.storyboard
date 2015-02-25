@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AVP-Ey-dA2">
-
-   <dependencies>
+    <dependencies>
         <deployment version="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -49,7 +48,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KMR-36-NFR" kind="modal" id="8oN-K0-jTy"/>
+                                    <segue destination="KMR-36-NFR" kind="modal" id="oee-cQ-e6c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8B2-gm-auU">
@@ -57,7 +56,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Get Involved"/>
                                 <connections>
-                                    <segue destination="2tq-yY-Wt0" kind="push" id="wPi-Nc-4K7"/>
+                                    <segue destination="2tq-yY-Wt0" kind="modal" id="TFR-fC-xwf"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ending World Hunger,                                     One Grilled Cheese at a Time" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fcp-XU-lLT">
@@ -148,6 +147,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="middle_border" translatesAutoresizingMaskIntoConstraints="NO" id="oET-xc-P1J">
                                 <rect key="frame" x="40" y="100" width="240" height="128"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Contact: Jacque Walo " translatesAutoresizingMaskIntoConstraints="NO" id="TFN-h2-IGf">
+                                <rect key="frame" x="40" y="320" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -200,7 +205,7 @@
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pF-FU-yZA">
-                                <rect key="frame" x="7" y="7" width="35" height="30"/>
+                                <rect key="frame" x="5" y="10" width="50" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -303,15 +308,6 @@
                                     <action selector="SpicesSelected:" destination="oLD-1V-l9q" eventType="touchUpInside" id="RZP-is-Kdm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPH-8e-Nth">
-                                <rect key="frame" x="5" y="51" width="45" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="Bread"/>
-                                <connections>
-                                    <action selector="BreadSelected:" destination="oLD-1V-l9q" eventType="touchUpInside" id="vat-qV-tSN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xez-GQ-0vH">
                                 <rect key="frame" x="5" y="156" width="100" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -323,7 +319,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOb-aj-nKi">
-                                <rect key="frame" x="5" y="8" width="50" height="30"/>
+                                <rect key="frame" x="5" y="10" width="50" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -382,6 +378,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4rn-mH-yCl">
                                 <rect key="frame" x="76" y="278" width="169" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPH-8e-Nth">
+                                <rect key="frame" x="5" y="51" width="45" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Bread"/>
+                                <connections>
+                                    <action selector="BreadSelected:" destination="oLD-1V-l9q" eventType="touchUpInside" id="vat-qV-tSN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -440,6 +445,16 @@
                                     <action selector="submitOrder:" destination="eEO-8b-T0f" eventType="touchUpInside" id="cXq-zO-0Xb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Msn-Rk-iQb">
+                                <rect key="frame" x="5" y="10" width="50" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Back:" destination="oLD-1V-l9q" eventType="touchUpInside" id="5uE-li-eUp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -474,16 +489,19 @@
                                     <action selector="Back:" destination="KMR-36-NFR" eventType="touchUpInside" id="izO-AH-hNG"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-1V-Kqo">
-                                <rect key="frame" x="40" y="265" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feel_good_top" translatesAutoresizingMaskIntoConstraints="NO" id="ekN-fh-3DN">
                                 <rect key="frame" x="110" y="109" width="100" height="100"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-1V-Kqo">
+                                <rect key="frame" x="40" y="228" width="240" height="280"/>
+                                <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
+                                <mutableString key="text">FeelGood-BU is working to end world hunger by 2030 one grilled cheese at a time! We held our first deli in the spring of 2013 and now continue to hold delis once a week in Warren Late Night. In 3 semesters, we’ve generated over $5000 for CHOICE Humanitarian, who engages in empowering partnership not charity in Mexico, Guatemala, Nepal, Bolivia, and Kenya. CHOICE partners with villages to develop an economically sustainable path out of poverty. CHOICE’s strategy is successful because they don’t believe in handouts and instead, they mobilize grassroots leadership, address gender inequality, forge partnerships with local governments and organizations, and embrace environmentally sustainable practices. 
+
+FeelGood is a national non-profit movement across 23 college campuses and growing. On each campus, students engage in a multi-faceted training program, gaining the knowledge and skills to run a successful social enterprise—a grilled cheese deli—to raise money and build public support for a systemic approach to hunger eradication because FeelGood recognizes that hunger is part of a complex web of social, economic and environmental issues that intertwine the developing and developed world. That is why FeelGood is igniting a generation of compassionate entrepreneurs who will continue to be changemakers in the global community into the future while working with successful aid organizations like CHOICE now.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
