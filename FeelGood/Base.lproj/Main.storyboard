@@ -418,12 +418,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCj-4F-OpD">
-                                <rect key="frame" x="38" y="82" width="82" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Uf-5j-zvg">
                                 <rect key="frame" x="38" y="228" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -455,6 +449,12 @@
                                     <action selector="Back:" destination="oLD-1V-l9q" eventType="touchUpInside" id="5uE-li-eUp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCj-4F-OpD">
+                                <rect key="frame" x="119" y="82" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -495,10 +495,10 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-1V-Kqo">
                                 <rect key="frame" x="40" y="228" width="240" height="280"/>
                                 <color key="backgroundColor" red="0.50588238240000005" green="0.91372555489999996" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
-                                <mutableString key="text">FeelGood-BU is working to end world hunger by 2030 one grilled cheese at a time! We held our first deli in the spring of 2013 and now continue to hold delis once a week in Warren Late Night. In 3 semesters, we’ve generated over $5000 for CHOICE Humanitarian, who engages in empowering partnership not charity in Mexico, Guatemala, Nepal, Bolivia, and Kenya. CHOICE partners with villages to develop an economically sustainable path out of poverty. CHOICE’s strategy is successful because they don’t believe in handouts and instead, they mobilize grassroots leadership, address gender inequality, forge partnerships with local governments and organizations, and embrace environmentally sustainable practices. 
+                                <string key="text">FeelGood-BU is working to end world hunger by 2030 one grilled cheese at a time! We held our first deli in the spring of 2013 and now continue to hold delis once a week in Warren Late Night. In 3 semesters, we’ve generated over $5000 for CHOICE Humanitarian, who engages in empowering partnership not charity in Mexico, Guatemala, Nepal, Bolivia, and Kenya. CHOICE partners with villages to develop an economically sustainable path out of poverty. CHOICE’s strategy is successful because they don’t believe in handouts and instead, they mobilize grassroots leadership, address gender inequality, forge partnerships with local governments and organizations, and embrace environmentally sustainable practices. 
 
 FeelGood is a national non-profit movement across 23 college campuses and growing. On each campus, students engage in a multi-faceted training program, gaining the knowledge and skills to run a successful social enterprise—a grilled cheese deli—to raise money and build public support for a systemic approach to hunger eradication because FeelGood recognizes that hunger is part of a complex web of social, economic and environmental issues that intertwine the developing and developed world. That is why FeelGood is igniting a generation of compassionate entrepreneurs who will continue to be changemakers in the global community into the future while working with successful aid organizations like CHOICE now.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
